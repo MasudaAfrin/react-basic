@@ -6,8 +6,7 @@ import ClassComponent from './components/ClassComponent';
 import Jsx from './components/Jsx';
 import FunProps from './components/FunProps';
 import ClassProps from './components/ClassProps';
-import ClassState from './components/ClassHook'
-import ClassHook from './components/ClassHook';
+import ClassState from './components/ClassState'
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
       <Jsx /> */}
       {/* <FunProps name='Tuba'/> */}
       {/* <ClassProps name='Tuba'/> */}
-      <ClassHook/>
+      <ClassState/>
     </div>
   );
 }

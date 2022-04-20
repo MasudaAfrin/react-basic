@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ClassHook extends Component {
+class ClassState extends Component {
     constructor(){
         super();
         this.state = {
@@ -38,4 +38,4 @@ class ClassHook extends Component {
     }
 };
 
-export default ClassHook;
+export default ClassState;
