@@ -7,17 +7,19 @@ import Jsx from './components/Jsx';
 import FunProps from './components/FunProps';
 import ClassProps from './components/ClassProps';
 import ClassState from './components/ClassState'
+import SetState from './components/SetState';
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet/>  */}
-      {/* <Intro/>
+      {/* <Greet/>
+      <Intro/>
       <ClassComponent/>
-      <Jsx /> */}
-      {/* <FunProps name='Tuba'/> */}
-      {/* <ClassProps name='Tuba'/> */}
-      <ClassState/>
+      <Jsx />
+      <FunProps name='Tuba'/>
+      <ClassProps name='Tuba'/>
+      <ClassState/> */}
+      <SetState/>
     </div>
   );
 }
